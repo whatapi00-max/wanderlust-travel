@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Menu, X, Plane } from "lucide-react"
+import { Menu, X, Plane, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
@@ -42,6 +42,10 @@ export function Navbar() {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
+          <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+            <MapPin className="h-4 w-4" />
+            <span>Sheikh Zayed Road, Dubai, UAE</span>
+          </div>
           <Link href="/booking">
             <Button>Book Now</Button>
           </Link>
