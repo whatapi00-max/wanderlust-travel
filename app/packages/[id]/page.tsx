@@ -30,9 +30,6 @@ export default function PackageDetailPage() {
           src={pkg.image}
           alt={pkg.title}
           className="w-full h-full object-cover"
-          onError={(e) => {
-            (e.target as HTMLImageElement).src = `https://placehold.co/1920x1080/3b82f6/ffffff?text=${encodeURIComponent(pkg.title)}`
-          }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-12">
@@ -75,9 +72,6 @@ export default function PackageDetailPage() {
                       src={img}
                       alt={`Gallery ${idx + 1}`}
                       className="w-full h-full object-cover"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = `https://placehold.co/400x400/3b82f6/ffffff?text=Photo+${idx + 1}`
-                      }}
                     />
                   </div>
                 ))}

@@ -154,9 +154,6 @@ export default function HomePage() {
                     src={destination.image}
                     alt={destination.name}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = `https://placehold.co/600x450/3b82f6/ffffff?text=${encodeURIComponent(destination.name)}`
-                    }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -239,9 +236,6 @@ export default function HomePage() {
                       src={pkg.image}
                       alt={pkg.title}
                       className="w-full h-full object-cover"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src = `https://placehold.co/600x450/3b82f6/ffffff?text=${encodeURIComponent(pkg.title)}`
-                      }}
                     />
                     <div className="absolute top-3 right-3 bg-white/90 px-2 py-1 rounded text-sm font-medium">
                       {pkg.duration} days

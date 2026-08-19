@@ -14,9 +14,6 @@ export default function PackagesPage() {
             src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1920&q=80"
             alt="Travel Packages"
             className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = `https://placehold.co/1920x1080/3b82f6/ffffff?text=Travel+Packages`
-            }}
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
@@ -39,9 +36,6 @@ export default function PackagesPage() {
                   src={pkg.image}
                   alt={pkg.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = `https://placehold.co/600x400/3b82f6/ffffff?text=${encodeURIComponent(pkg.title)}`
-                  }}
                 />
                 <div className="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-sm font-medium">
                   {pkg.category}

@@ -17,9 +17,6 @@ export default function DestinationsPage() {
             src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80"
             alt="Destinations"
             className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLImageElement).src = `https://placehold.co/1920x1080/3b82f6/ffffff?text=Destinations`
-            }}
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
@@ -78,9 +75,6 @@ export default function DestinationsPage() {
                   src={destination.image}
                   alt={destination.name}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = `https://placehold.co/600x400/3b82f6/ffffff?text=${encodeURIComponent(destination.name)}`
-                  }}
                 />
                 <div className="absolute top-3 left-3 bg-white/90 px-2 py-1 rounded text-xs font-medium">
                   {destination.region}
