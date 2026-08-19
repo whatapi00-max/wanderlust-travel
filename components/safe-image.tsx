@@ -11,8 +11,6 @@ interface SafeImageProps {
 }
 
 export function SafeImage({ src, alt, fill, width, height, className, priority }: SafeImageProps) {
-  const placeholderUrl = `https://placehold.co/600x400/3b82f6/ffffff?text=${encodeURIComponent(alt)}`
-  
   return (
     <Image
       src={src}
@@ -23,7 +21,6 @@ export function SafeImage({ src, alt, fill, width, height, className, priority }
       className={className}
       priority={priority}
       unoptimized
-      onError={() => {}}
     />
   )
 }
