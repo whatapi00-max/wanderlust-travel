@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import Link from "next/link"
 import { ArrowLeft, ArrowRight, Check, Loader2, AlertCircle } from "lucide-react"
@@ -19,7 +19,7 @@ const steps = [
   { id: 5, name: "Payment" },
 ]
 
-export default function BookingPage() {
+function BookingContent() {
   const searchParams = useSearchParams()
   const preselectedPackage = searchParams.get("package")
 
@@ -406,5 +406,13 @@ export default function BookingPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function BookingPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-muted flex items-center justify-center"><p>Loading...</p></div>}>
+      <BookingContent />
+    </Suspense>
   )
 }
