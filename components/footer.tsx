@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Plane, Mail, MapPin } from "lucide-react"
+import Image from "next/image"
+import { Mail, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
-              <Plane className="h-6 w-6 text-primary" />
+              <Image src="/logo.png" alt="Happy Tour FZ" width={32} height={32} className="object-contain" />
               <span className="font-bold text-xl">Happy Tour FZ</span>
             </Link>
             <p className="text-sm text-muted-foreground">

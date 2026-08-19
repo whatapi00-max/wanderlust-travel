@@ -1,8 +1,9 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
-import { Menu, X, Plane } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
@@ -23,7 +24,7 @@ export function Navbar() {
       <div className="container flex h-16 items-center">
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Plane className="h-6 w-6 text-primary" />
+            <Image src="/logo.png" alt="Happy Tour FZ" width={40} height={40} className="object-contain" />
             <span className="font-bold text-xl hidden md:inline-block">Happy Tour FZ</span>
           </Link>
         </div>
