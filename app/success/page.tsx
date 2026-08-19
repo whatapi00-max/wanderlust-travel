@@ -64,7 +64,7 @@ function SuccessContent() {
         </div>
 
         <p className="text-xs text-muted-foreground mt-6">
-          Need help? Contact us at info@sktourstravels.com or call +971 50 123 4567
+          Need help? Contact us at info@happytourfz.com
         </p>
       </div>
     </div>

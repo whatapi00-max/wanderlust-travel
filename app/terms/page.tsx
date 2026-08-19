@@ -15,9 +15,9 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold mb-4">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground leading-relaxed">
-              By accessing and using the Wanderlust Travel website and services, you agree to be bound 
+              By accessing and using the Happy Tour FZ website and services, you agree to be bound 
               by these Terms and Conditions. If you do not agree with any part of these terms, please do 
-              not use our services. These terms constitute a legally binding agreement between you and Wanderlust Travel.
+              not use our services. These terms constitute a legally binding agreement between you and Happy Tour FZ.
               We reserve the right to modify these terms at any time, and your continued use of the website 
               constitutes acceptance of any changes.
             </p>
@@ -77,7 +77,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-semibold mb-4">5. Travel Documents and Requirements</h2>
             <p className="text-muted-foreground leading-relaxed">
               It is your sole responsibility to ensure you have valid travel documents including passports, visas, 
-              vaccinations, and any other requirements for your destination. Wanderlust Travel is not responsible 
+              vaccinations, and any other requirements for your destination. Happy Tour FZ is not responsible 
               for denied entry, deportation, or travel delays due to incomplete or invalid documentation. We strongly 
               recommend purchasing comprehensive travel insurance that covers medical emergencies, trip cancellations, 
               and lost luggage. You must comply with all applicable laws and regulations of your destination country.
@@ -97,7 +97,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold mb-4">7. Liability and Responsibility</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Wanderlust Travel acts as an intermediary between you and travel service providers (airlines, 
+              Happy Tour FZ acts as an intermediary between you and travel service providers (airlines, 
               hotels, tour operators, transportation companies). We are not liable for:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
@@ -139,7 +139,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-semibold mb-4">10. Intellectual Property Rights</h2>
             <p className="text-muted-foreground leading-relaxed">
               All content on this website, including text, images, videos, and designs, is the property of 
-              Wanderlust Travel or its content suppliers and is protected by international copyright laws. 
+              Happy Tour FZ or its content suppliers and is protected by international copyright laws. 
               You may not reproduce, distribute, or transmit any content without our prior written permission.
             </p>
           </section>
@@ -147,7 +147,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold mb-4">11. User-Generated Content</h2>
             <p className="text-muted-foreground leading-relaxed">
-              If you submit reviews, comments, or other content to our website, you grant Wanderlust Travel 
+              If you submit reviews, comments, or other content to our website, you grant Happy Tour FZ 
               the right to use, modify, and display this content. You represent that you own or have the rights 
               to the content you submit and that it does not violate any third-party rights or applicable laws.
             </p>
@@ -187,7 +187,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold mb-4">15. Governing Law</h2>
             <p className="text-muted-foreground leading-relaxed">
-              These Terms and Conditions are governed by the laws of the jurisdiction where Wanderlust Travel 
+              These Terms and Conditions are governed by the laws of the jurisdiction where Happy Tour FZ 
               operates. Any disputes arising from these terms shall be subject to the exclusive jurisdiction 
               of the courts in that jurisdiction.
             </p>
@@ -196,7 +196,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold mb-4">16. Limitation of Liability</h2>
             <p className="text-muted-foreground leading-relaxed">
-              To the fullest extent permitted by law, Wanderlust Travel shall not be liable for any indirect, 
+              To the fullest extent permitted by law, Happy Tour FZ shall not be liable for any indirect, 
               incidental, special, consequential, or punitive damages arising from your use of our website or services, 
               even if we have been advised of the possibility of such damages.
             </p>
@@ -216,11 +216,9 @@ export default function TermsPage() {
               For questions about these Terms and Conditions, please contact us:
             </p>
             <div className="mt-4 text-muted-foreground space-y-2">
-              <p className="font-semibold">Wanderlust Travel</p>
-              <p>Email: support@wanderlusttravel.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
-              <p>Website: www.wanderlusttravel.com</p>
-              <p>Address: 123 Travel Street, Adventure City, AC 12345</p>
+              <p className="font-semibold">Happy Tour FZ</p>
+              <p>Email: info@happytourfz.com</p>
+              <p>Address: Sheikh Zayed Road, Dubai, UAE</p>
             </div>
           </section>
 

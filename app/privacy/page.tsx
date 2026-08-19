@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-semibold mb-4">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              SK Tours & Travels (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. 
+              Happy Tour FZ (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. 
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you 
               visit our website or use our services. By accessing or using our services, you agree to the collection 
               and use of information in accordance with this policy.
@@ -87,7 +87,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-muted-foreground leading-relaxed">
               You have the right to access, update, or delete your personal information. You may also opt-out 
               of receiving marketing communications at any time. To exercise these rights, please contact us 
-              at info@sktourstravels.com.
+              at info@happytourfz.com.
             </p>
           </section>
 
@@ -97,9 +97,8 @@ export default function PrivacyPolicyPage() {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <div className="mt-4 text-muted-foreground">
-              <p>SK Tours & Travels</p>
-              <p>Email: info@sktourstravels.com</p>
-              <p>Phone: +971 50 123 4567</p>
+              <p>Happy Tour FZ</p>
+              <p>Email: info@happytourfz.com</p>
             </div>
           </section>
         </div>

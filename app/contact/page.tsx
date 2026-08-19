@@ -49,14 +49,7 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground text-sm">info@sktourstravels.com</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <Phone className="h-5 w-5 text-primary mt-0.5" />
-                  <div>
-                    <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground text-sm">+971 50 123 4567</p>
+                    <p className="text-muted-foreground text-sm">info@happytourfz.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">

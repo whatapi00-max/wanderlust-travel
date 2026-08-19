@@ -7,7 +7,7 @@ export default function BookingPolicyPage() {
       <div className="bg-white border-b">
         <div className="container mx-auto px-4 py-12">
           <h1 className="text-3xl font-bold">Booking Policy</h1>
-          <p className="text-muted-foreground mt-2">Understanding how to book with SK Tours & Travels</p>
+          <p className="text-muted-foreground mt-2">Understanding how to book with Happy Tour FZ</p>
         </div>
       </div>
 
@@ -20,7 +20,7 @@ export default function BookingPolicyPage() {
               How to Book
             </h2>
             <div className="space-y-4 text-muted-foreground">
-              <p>Booking your dream vacation with SK Tours & Travels is simple:</p>
+              <p>Booking your dream vacation with Happy Tour FZ is simple:</p>
               <ol className="list-decimal list-inside space-y-2 ml-4">
                 <li>Browse our destinations and packages on the website</li>
                 <li>Select your preferred travel package</li>
@@ -131,8 +131,7 @@ export default function BookingPolicyPage() {
             <div className="text-muted-foreground">
               <p>For booking assistance or inquiries:</p>
               <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
-                <li>Email: info@sktourstravels.com</li>
-                <li>Phone: +971 50 123 4567</li>
+                <li>Email: info@happytourfz.com</li>
                 <li>Office: Sheikh Zayed Road, Dubai, UAE</li>
                 <li>Hours: Sunday-Thursday, 9AM-6PM GST</li>
               </ul>

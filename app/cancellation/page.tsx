@@ -185,8 +185,7 @@ export default function CancellationPage() {
             <div className="text-muted-foreground">
               <p>For cancellation requests or questions:</p>
               <ul className="list-disc list-inside space-y-2 ml-4 mt-2">
-                <li>Email: info@sktourstravels.com</li>
-                <li>Phone: +971 50 123 4567</li>
+                <li>Email: info@happytourfz.com</li>
                 <li>Office Hours: Sunday-Thursday, 9AM-6PM GST</li>
               </ul>
             </div>

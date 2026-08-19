@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center space-x-2">
               <Plane className="h-6 w-6 text-primary" />
-              <span className="font-bold text-xl">SK Tours & Travels</span>
+              <span className="font-bold text-xl">Happy Tour FZ</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Discover breathtaking destinations and book your perfect getaway. Premium travel packages to the world&apos;s most beautiful places.
@@ -66,19 +66,15 @@ export function Footer() {
                 <span>Sheikh Zayed Road, Dubai, UAE</span>
               </li>
               <li className="flex items-center space-x-2 text-muted-foreground">
-                <Phone className="h-4 w-4" />
-                <span>+971 50 123 4567</span>
-              </li>
-              <li className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@sktourstravels.com</span>
+                <span>info@happytourfz.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-12 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} SK Tours & Travels. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Happy Tour FZ. All rights reserved.</p>
         </div>
       </div>
     </footer>

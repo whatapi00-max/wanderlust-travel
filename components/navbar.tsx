@@ -24,7 +24,7 @@ export function Navbar() {
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Plane className="h-6 w-6 text-primary" />
-            <span className="font-bold text-xl hidden md:inline-block">SK Tours & Travels</span>
+            <span className="font-bold text-xl hidden md:inline-block">Happy Tour FZ</span>
           </Link>
         </div>
         

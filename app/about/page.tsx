@@ -66,7 +66,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">About SK Tours & Travels</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">About Happy Tour FZ</h1>
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
             Creating unforgettable travel experiences from Dubai since 2015
           </p>
@@ -78,7 +78,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Our Story</h2>
           <p className="text-lg text-muted-foreground mb-6">
-            SK Tours & Travels was born from a simple belief: travel should be transformative, not transactional. 
+            Happy Tour FZ was born from a simple belief: travel should be transformative, not transactional. 
             Founded in 2015 in Dubai, UAE, we started as a small team of passionate travelers who wanted to 
             share the world&apos;s most extraordinary destinations with others across the Middle East.
           </p>

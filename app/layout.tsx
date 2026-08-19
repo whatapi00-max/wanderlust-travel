@@ -8,7 +8,7 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wanderlust Travel | Book Your Dream Trip",
+  title: "Happy Tour FZ | Book Your Dream Trip",
   description: "Discover breathtaking destinations and book your perfect getaway. Premium travel packages to the world's most beautiful places.",
 };
 

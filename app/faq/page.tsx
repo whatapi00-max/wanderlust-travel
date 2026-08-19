@@ -3,7 +3,7 @@ import { ChevronDown } from "lucide-react"
 
 const faqs = [
   {
-    question: "How do I book a trip with SK Tours & Travels?",
+    question: "How do I book a trip with Happy Tour FZ?",
     answer: "Booking is easy! Browse our destinations or packages, select your preferred option, and click 'Book Now'. Follow our 5-step booking process: enter your details, select travel dates, choose your package, review your booking, and complete payment through our secure gateway."
   },
   {
@@ -43,8 +43,8 @@ const faqs = [
     answer: "We recommend booking at least 2-3 months in advance for popular destinations and peak seasons (summer holidays, Eid, Christmas, New Year). Early booking ensures better availability and often better prices."
   },
   {
-    question: "How can I contact SK Tours & Travels?",
-    answer: "You can reach us via email at info@sktourstravels.com, call us at +971 50 123 4567, visit our office on Sheikh Zayed Road in Dubai, or use the contact form on our website. Our team is available Sunday-Thursday, 9AM-6PM GST."
+    question: "How can I contact Happy Tour FZ?",
+    answer: "You can reach us via email at info@happytourfz.com, visit our office on Sheikh Zayed Road in Dubai, or use the contact form on our website. Our team is available Sunday-Thursday, 9AM-6PM GST."
   },
   {
     question: "Do you offer customized itineraries?",

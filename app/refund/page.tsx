@@ -15,7 +15,7 @@ export default function RefundPolicyPage() {
           <section>
             <h2 className="text-xl font-semibold mb-4">1. Overview</h2>
             <p className="text-muted-foreground leading-relaxed">
-              At SK Tours & Travels, we understand that plans can change. This Refund Policy outlines 
+              At Happy Tour FZ, we understand that plans can change. This Refund Policy outlines 
               the conditions under which you may be eligible for a refund for your travel bookings. 
               Please read this policy carefully before making a reservation.
             </p>
@@ -120,8 +120,7 @@ export default function RefundPolicyPage() {
               For refund-related inquiries, please contact our customer service team:
             </p>
             <div className="mt-4 text-muted-foreground">
-              <p>Email: info@sktourstravels.com</p>
-              <p>Phone: +971 50 123 4567</p>
+              <p>Email: info@happytourfz.com</p>
               <p>Hours: Sunday - Thursday, 9:00 AM - 6:00 PM GST</p>
             </div>
           </section>
